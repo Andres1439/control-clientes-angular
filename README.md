@@ -1,59 +1,50 @@
-# ControlClientes
+# 📋 Aplicativo Angular - Control de Clientes 🔥
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+Este proyecto es una aplicación web desarrollada en **Angular** que permite el **registro y gestión de clientes**. Cada cliente cuenta con los siguientes datos:
 
-## Development server
+- Nombre
+- Apellido
+- Correo electrónico
+- Saldo
 
-To start a local development server, run:
+La aplicación utiliza **Firebase** como backend para almacenamiento de datos en tiempo real.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Características principales
 
-## Code scaffolding
+- Registro de nuevos clientes
+- Visualización de la lista de clientes
+- Edición y eliminación de clientes
+- Conexión con **Firebase Firestore**
+- UI responsiva con Angular Material (opcional)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Tecnologías utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- [Angular](https://angular.io/)
+- [Firebase](https://firebase.google.com/)
+- [AngularFire](https://github.com/angular/angularfire)
+- [RxJS](https://rxjs.dev/)
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🔧 Requisitos previos
 
-To build the project run:
+Antes de comenzar, asegúrate de tener instalado:
 
-```bash
-ng build
-```
+- Node.js (v18.x o superior recomendado)
+- Angular CLI (`npm install -g @angular/cli`)
+- Cuenta de Firebase
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## ⚙️ Instalación
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+1. **Clona el repositorio**
 
 ```bash
-ng e2e
+git clone https://github.com/tuusuario/control-clientes-angular.git
+cd control-clientes-angular
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
